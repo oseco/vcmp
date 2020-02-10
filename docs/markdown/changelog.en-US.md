@@ -1,0 +1,1158 @@
+# Changelog
+
+### [v2.4.3](https://github.com/youzan/vant/compare/v2.4.3-beta.0...v2.4.3)
+`2020-01-19`
+
+**Feature**
+
+* Calendar: add max-range、range-prompt prop [#5583](https://github.com/youzan/vant/issues/5583)
+* ImagePreview: add @image-preview-index-text-shadow var [e2f302](https://github.com/youzan/vant/commit/e2f30242eaaebd36d9816e2746fe6c44323e6aca)
+* Stepper: add long-press prop [2f3ec6](https://github.com/youzan/vant/commit/2f3ec6a3d48a9d56f8127d27d51c3337f6e72cab)
+* Swipe: pause autoplay when page hidden [113157](https://github.com/youzan/vant/commit/11315787ec980767973a3fded50fb5858e51e298)
+
+**Improvement**
+
+* Icon: update share icon [2f77ac](https://github.com/youzan/vant/commit/2f77acfc6cef23ea664defc38c4cd806ceca1ee4)
+* Field: imporve readonly cursor [60173d](https://github.com/youzan/vant/commit/60173dd6bc004339333c50218d7c6b2f6c1bc07b)
+* Stepper: improve disable-input behavior [959eca](https://github.com/youzan/vant/commit/959eca136c4ca6a39e22d36512db74b93ad100c6)
+
+**Bug Fixes**
+
+* Calendar: should show range prompt after select [ff0901](https://github.com/youzan/vant/commit/ff09011e0ef18ab29dd70b51f412625dd10bb4cb)
+* GoodsAction: should set wrapper height [#5593](https://github.com/youzan/vant/issues/5593)
+
+**Types**
+
+* Calendar: fix missing type definition [#5588](https://github.com/youzan/vant/issues/5588)
+* Toast: incorrect definition of setDefaultOptions method [#5582](https://github.com/youzan/vant/issues/5582)
+
+
+### [v2.4.2](https://github.com/youzan/vant/compare/v2.4.2-beta.1...v2.4.2)
+`2020-01-14`
+
+**Feature**
+
+* Sku: add properties prop [#5525](https://github.com/youzan/vant/issues/5525)
+* Field: add digit type [#5524](https://github.com/youzan/vant/issues/5524)
+* Image: add error-icon prop [#5470](https://github.com/youzan/vant/issues/5470)
+* Image: add loading-icon prop [#5469](https://github.com/youzan/vant/issues/5469)
+* Field: add formatter prop [#5534](https://github.com/youzan/vant/issues/5534)
+* Swipe: add prev、next method [#5548](https://github.com/youzan/vant/issues/5548)
+* GoodsAcitonIcon: add color prop [#5576](https://github.com/youzan/vant/issues/5576)
+
+**Improvement**
+
+* AddressEdit: show error message in field [#5479](https://github.com/youzan/vant/issues/5479)
+* ActionSheet: update close icon style [#5574](https://github.com/youzan/vant/issues/5574)
+* AddressList: update style [#5507](https://github.com/youzan/vant/issues/5507)
+* CouponList: update style [#5501](https://github.com/youzan/vant/issues/5501)
+* Calendar: scroll to current month when show [#5526](https://github.com/youzan/vant/issues/5526)
+* ImagePreview: improve error image style [#5570](https://github.com/youzan/vant/issues/5570)
+* improve cursor of all components [c1a535](https://github.com/youzan/vant/commit/c1a535b0dd9470f8eb526e86aa59cf6dec022f3a)
+
+**Bug Fixes**
+
+* Button: should not have click feedback when loading [0a70d3](https://github.com/youzan/vant/commit/0a70d344124ef756a73ea9edfee07303f394d880)
+* Card: thumb image border-radius become effective [#5480](https://github.com/youzan/vant/issues/5480)
+* Calendar: incorrect month title after auto scroll [#5569](https://github.com/youzan/vant/issues/5569)
+* Calendar: missing info when selected [#5536](https://github.com/youzan/vant/issues/5536)
+* Checkbox: only the icon is clickable when label-disabled [3d10d4](https://github.com/youzan/vant/commit/3d10d42fccadd1b9df46860d758a91f7825073e9)
+* CouponList: incorrect click feedback [#5521](https://github.com/youzan/vant/issues/5521)
+* Field: should limit number input in iOS [#5520](https://github.com/youzan/vant/issues/5520)
+* ImagePreview: disable desktop browser image drag [#4487](https://github.com/youzan/vant/issues/4487)
+* Picker: optimize the click experience [5cbb9e](https://github.com/youzan/vant/commit/5cbb9e29989ac58d44a4ec503cbb984269c8f18e)
+* PullRefresh: should set height when using head-height [028747](https://github.com/youzan/vant/commit/028747c35471f33e8c2b0baa6fb8915510daac22)
+* Tabs: can not render line when wrapper is fixed [#5496](https://github.com/youzan/vant/issues/5496)
+
+
+### [v2.4.1](https://github.com/youzan/vant/compare/v2.4.0...v2.4.1)
+`2020-01-02`
+
+**Feature**
+
+* ContactEdit: show error message in field [#5437](https://github.com/youzan/vant/issues/5437)
+* CouponCell: prefer to use value over denominations [#5438](https://github.com/youzan/vant/issues/5438)
+
+**Bug Fixes**
+
+* Calendar: fix incorrect day offset [#5452](https://github.com/youzan/vant/issues/5452)
+* List: fix incorrect reaching edge condition when direction is up [#5439](https://github.com/youzan/vant/issues/5439)
+
+
+### [v2.4.0](https://github.com/youzan/vant/compare/v2.3.3...v2.4.0)
+`2020-01-01`
+
+**New Component**
+
+* add Calendar component
+
+![](https://img.yzcdn.cn/vant/calendar-12282.png)
+
+**Feature**
+
+* List: add error slot [e9a938](https://github.com/youzan/vant/commit/e9a938820232194ad5f62b2b6588fa5d604016ae)
+* List: add finished slot [8a0705](https://github.com/youzan/vant/commit/8a0705d7610890c0da47e9e7eb0ef5665a3dca0d)
+* PullRefresh: add success slot [56e450](https://github.com/youzan/vant/commit/56e450f29e67a5e66b26cf9937c458270f462bdc)
+* CouponList: update button style [#5368](https://github.com/youzan/vant/issues/5368)
+* DatetimePicker: add getPicker method [1dc1fe](https://github.com/youzan/vant/commit/1dc1feae40b8ca11df980aa1d5ecf108151938e4)
+* Image: add @image-loading-icon-size、@image-error-icon-size var [d7ae8c](https://github.com/youzan/vant/commit/d7ae8c5a26dcb6b7b79b4ca7a2ed3842673c2ea0)
+* Picker: add confirm method [5eb2a4](https://github.com/youzan/vant/commit/5eb2a4012ae3e9d90a29a924ae454e54408b1235)
+* TreeSelect: add @tree-select-item-selected-size var [373159](https://github.com/youzan/vant/commit/37315975203f28d36634d9ad8388a7f4dc8a44ea)
+
+**Compatibility**
+
+* NumberKeyboard: avoid Vue 2.6 event bubble issues [#5349](https://github.com/youzan/vant/issues/5349)
+* Picker: avoid Vue 2.6 event bubble issues by manually binding events [#5345](https://github.com/youzan/vant/issues/5345)
+* PullRefresh: avoid Vue 2.6 event bubble issues [#5347](https://github.com/youzan/vant/issues/5347)
+* Rate、Slider: avoid Vue 2.6 event bubble issues [#5350](https://github.com/youzan/vant/issues/5350)
+* Swipe: avoid Vue 2.6 event bubble issues [#5346](https://github.com/youzan/vant/issues/5346)
+* SwipeCell: avoid Vue 2.6 event bubble issues [#5348](https://github.com/youzan/vant/issues/5348)
+
+**Bug Fixes**
+
+* ImagePreview: close event triggered twice [#5411](https://github.com/youzan/vant/issues/5411)
+* ImagePreview: should not emit close event after tapped when using async-close [#5410](https://github.com/youzan/vant/issues/5410)
+* PullRefresh: failed to trigger pull refresh when scrolling [e00058](https://github.com/youzan/vant/commit/e00058b681d8796feaaaa4a9f2c4083a18b61fe9)
+* Tag: incorrect transition when set closeable dynamically [fe6e2f](https://github.com/youzan/vant/commit/fe6e2f29ba289206138fe17df046a55000b218ad)
+* Tag: should not trigger click event when close [#5351](https://github.com/youzan/vant/issues/5351)
+* Toast: may lose forbid click when has multiple toasts [#5398](https://github.com/youzan/vant/issues/5398)
+* Icon: should compatible with medel-o [7b905a](https://github.com/youzan/vant/commit/7b905a6de85b895e2226c35875ee3633c2ae7e79)
+* IndexBar: incorrect anchor position when anchor doesn't have a parent node [#5429](https://github.com/youzan/vant/issues/5429)
+* Picker: compatible with desktop scenario [#5430](https://github.com/youzan/vant/issues/5430)
+* Stepper: input disabled text color in safari [#5428](https://github.com/youzan/vant/issues/5428)
+
+**Types**
+
+* AddressEdit: add setAddressDetail method type [#5352](https://github.com/youzan/vant/issues/5352)
+* Area: add reset method type [#5353](https://github.com/youzan/vant/issues/5353)
+* Checkbox: add toggle method type [#5354](https://github.com/youzan/vant/issues/5354)
+* CountDown: add methods types [0438bd](https://github.com/youzan/vant/commit/0438bdbc97a81ad8b7de18ef8784d9907ce641c6)
+* DropdownItem: add toggle method type [5c1883](https://github.com/youzan/vant/commit/5c1883f77c36d5026c60c873197dab98d4ca42f5)
+* Field: add focus、blur method type [0b5c8e](https://github.com/youzan/vant/commit/0b5c8e5f3df570292e8599e7c2ff997fbee120ce)
+* List: add check method type [285bce](https://github.com/youzan/vant/commit/285bce677c8997d55515a760f4d12b05349ebd3f)
+* Picker: add method types [46d2b0](https://github.com/youzan/vant/commit/46d2b094477b52a96e85d18ec6fc42051a832e10)
+* Sku: add methods types [d2bb9f](https://github.com/youzan/vant/commit/d2bb9fa81b401e429296003e4c2ec8c0e544d2af)
+* Swipe: add swipeTo、resize method types [a1831b](https://github.com/youzan/vant/commit/a1831b86387f1127325b9952d2d18349d41dc5c7)
+* SwipeCell: add open、close method type [9a9676](https://github.com/youzan/vant/commit/9a9676d6af7d29ac2221761ad680cecd4e929a39)
+* Tabs: add resize method type [3c526e](https://github.com/youzan/vant/commit/3c526ec1a26b5a38bc6a6ba2ded7a3db94bbcced)
+* Uploader: add closeImagePreview method type [cf191e](https://github.com/youzan/vant/commit/cf191e09cbc8093bb72f5d1e9381b263cdf9f0d2)
+
+
+### [v2.3.3](https://github.com/youzan/vant/tree/v2.3.3)
+`2019-12-21`
+
+**Bug Fixes**
+
+- fix compile error when using babel-plugin-import
+
+
+### [v2.3.2](https://github.com/youzan/vant/tree/v2.3.2)
+`2019-12-20`
+
+**Bug Fixes**
+
+- fix Area missing style
+- fix DatetimePicker missing style
+- fix CountDown infinite tick if call reset after finish [\#5340](https://github.com/youzan/vant/pull/5340)
+- fix ImagePreview onClose should only trigger once [\#5341](https://github.com/youzan/vant/pull/5341)
+
+
+### [v2.3.1](https://github.com/youzan/vant/tree/v2.3.1)
+`2019-12-20`
+
+**Bug Fixes**
+
+- Fix uncompiled ES6 code in the entry file
+
+
+### [v2.3.0](https://github.com/youzan/vant/tree/v2.3.0)
+`2019-12-20`
+
+**Style**
+
+Upgrading the style of business components:
+
+- AddressEdit
+- Card
+- CouponList
+- ContactList
+- ContactCard
+- ContactEdit
+- SubmitBar
+
+![](https://b.yzcdn.cn/vant/style-update-2.3.0-2.png)
+
+**Features**
+
+- use [@vant/cli](https://github.com/youzan/vant/tree/dev/packages/vant-cli) to build pacakge
+- AddressList: add default-tag-text prop [\#5106](https://github.com/youzan/vant/pull/5106)
+- Card: add price-top slot [\#5134](https://github.com/youzan/vant/pull/5134)
+- Checkbox: improve toggleAll perf [\#5285](https://github.com/youzan/vant/pull/5285)
+- Circle: add stroke-linecap prop [\#5087](https://github.com/youzan/vant/pull/5087)
+- CouponList: add show-count prop [\#5139](https://github.com/youzan/vant/pull/5139)
+- CountDown: support SS and S format [\#5154](https://github.com/youzan/vant/pull/5154)
+- ContactList: add default-tag-text prop [\#5089](https://github.com/youzan/vant/pull/5089)
+- ContactCard: add show-set-default prop [\#5083](https://github.com/youzan/vant/pull/5083)
+- ContactCard: add set-default-label prop [\#5083](https://github.com/youzan/vant/pull/5083)
+- Sku: add start-sale-num prop [\#5105](https://github.com/youzan/vant/pull/5105)
+- Sku: add resetSelectedSku method [\#5318](https://github.com/youzan/vant/pull/5318)
+- SubmitBar: add text-align prop [\#5130](https://github.com/youzan/vant/pull/5130)
+- SwipeCell: add open event [\#5324](https://github.com/youzan/vant/pull/5324)
+- SwipeCell: add before-close prop [\#5320](https://github.com/youzan/vant/pull/5320)
+- Tab: add dot prop [\#5272](https://github.com/youzan/vant/pull/5272)
+- Tab: add info prop [\#5274](https://github.com/youzan/vant/pull/5274)
+- Tab: add rendered event [\#5315](https://github.com/youzan/vant/pull/5315)
+- Tab: add scrollspy prop [\#5273](https://github.com/youzan/vant/pull/5273)
+- Toast: improve type definitions [\#5086](https://github.com/youzan/vant/pull/5086)
+
+**Bug Fixes**
+
+- fix ActionSheet should not submit form [\#5181](https://github.com/youzan/vant/pull/5181)
+- fix Card allow use bottom slot without price or num [\#5116](https://github.com/youzan/vant/pull/5116)
+- fix Dialog show not trigger close event when hidden [\#5267](https://github.com/youzan/vant/pull/5267)
+- fix DropdownMenu incorrect menu position when scroll [\#5313](https://github.com/youzan/vant/pull/5313)
+- fix Icon medal typo [\#5242](https://github.com/youzan/vant/pull/5242)
+- fix NumberKeyboard should not trigger blur event when hidden [\#5110](https://github.com/youzan/vant/pull/5110)
+- fix Picker should not submit form [\#5182](https://github.com/youzan/vant/pull/5182)
+- fix Popup should reopen when activated [\#5286](https://github.com/youzan/vant/pull/5286)
+- fix Stepper should format value when max、min changed [\#5257](https://github.com/youzan/vant/pull/5257)
+- fix Sku should check state when reset [\#5231](https://github.com/youzan/vant/pull/5231)
+- fix Switch incorrect size prop type [\#5229](https://github.com/youzan/vant/pull/5229)
+- fix SubmitBar incorrect decimal when price is integer [\#5224](https://github.com/youzan/vant/pull/5224)
+- fix Sku stepper value must be integer [\#5202](https://github.com/youzan/vant/pull/5202)
+- fix Sku stepper should not emit invalid num [\#5210](https://github.com/youzan/vant/pull/5210)
+- fix Stepper should not submit form [\#5183](https://github.com/youzan/vant/pull/5183)
+- fix TreeSelect should sync value before trigger click-item event [\#5153](https://github.com/youzan/vant/pull/5153)
+- fix TouchEmulator compatibility issues on firefox [\#5118](https://github.com/youzan/vant/pull/5118)
+- fix Uploader not trigger oversize event when upload same file [\#5177](https://github.com/youzan/vant/pull/5177)
+- fix less import issue [\#5157](https://github.com/youzan/vant/pull/5157)
+
+
+### [v2.2.16](https://github.com/youzan/vant/tree/v2.2.16)
+`2019-12-03`
+
+**Features**
+
+- Stepper: add disable-plus props [\#5180](https://github.com/youzan/vant/pull/5180)
+- Stepper: add disable-minus props [\#5180](https://github.com/youzan/vant/pull/5180)
+
+
+### [v2.2.15](https://github.com/youzan/vant/tree/v2.2.15)
+`2019-11-28`
+
+**Bug Fixes**
+
+- fix List incorrect list status in some cases
+
+
+### [v2.2.14](https://github.com/youzan/vant/tree/v2.2.14)
+`2019-11-22`
+
+**Features**
+
+- Tabs: add title-style prop [\#5048](https://github.com/youzan/vant/pull/5048)
+- Tabs: add resize method [\#5071](https://github.com/youzan/vant/pull/5071)
+- Swipe: add resize method [\#5070](https://github.com/youzan/vant/pull/5070)
+
+**Bug Fixes**
+
+- fix Cell should break word of value [\#5029](https://github.com/youzan/vant/pull/5029)
+- fix Field incorrect count of line break in safari [\#5049](https://github.com/youzan/vant/pull/5049)
+- fix Tabbar incorrect style when using safe-area-inset-bottom [\#5079](https://github.com/youzan/vant/pull/5079)
+- fix SwipeCell compatible with desktop scenario [\#5077](https://github.com/youzan/vant/pull/5077)
+- fix DropdownMenu should't close when custom container and get clicked [\#5047](https://github.com/youzan/vant/pull/5047)
+
+
+### [v2.2.13](https://github.com/youzan/vant/tree/v2.2.13)
+`2019-11-14`
+
+**Features**
+
+- Area: add swipe-duration prop [\#5014](https://github.com/youzan/vant/pull/5014)
+- Swipe: add stop-propagation prop [\#4972](https://github.com/youzan/vant/pull/4972)
+- Toast: add overlay option [\#4969](https://github.com/youzan/vant/pull/4969)
+- Toast: add clickOnClickOverlay option [\#4967](https://github.com/youzan/vant/pull/4967)
+- SwipeCell: add opened event [\#4986](https://github.com/youzan/vant/pull/4986)
+- ActionSheet: add close-icon prop [\#5016](https://github.com/youzan/vant/pull/5016)
+- DropdownItem: add title slot [\#4975](https://github.com/youzan/vant/pull/4975)
+- DatetimePicker: add swipe-duration prop [\#5015](https://github.com/youzan/vant/pull/5015)
+
+**Bug Fixes**
+
+- fix Tab can't match when name is 0 [\#5017](https://github.com/youzan/vant/pull/5017)
+- fix Indexbar incorrect anchor position when hidden [\#5012](https://github.com/youzan/vant/pull/5012)
+- fix Indexbar incorrect anchor position when set sticky-offset-top [\#5012](https://github.com/youzan/vant/pull/5012)
+- fix DatetimePicker can't change when filter when empty array [\#4973](https://github.com/youzan/vant/pull/4973)
+- fix DateTimePicker incorrect value when set max-hour or max-minute [\#5006](https://github.com/youzan/vant/pull/5006)
+- fix ImagePreview missing swipeDuration type definition [\#4968](https://github.com/youzan/vant/pull/4968)
+
+
+### [v2.2.12](https://github.com/youzan/vant/tree/v2.2.12)
+`2019-11-07`
+
+**Features**
+
+- Stepper: add name prop [\#4931](https://github.com/youzan/vant/pull/4931)
+- Uploader: add deletable prop [\#4925](https://github.com/youzan/vant/pull/4925)
+
+**Bug Fixes**
+
+- fix Sku set min-height for sku body [\#4942](https://github.com/youzan/vant/pull/4942)
+- fix List may trigger load event repeatedly [\#4953](https://github.com/youzan/vant/pull/4953)
+- fix can't custom hairline border color [\#4939](https://github.com/youzan/vant/pull/4939)
+
+
+### [v2.2.11](https://github.com/youzan/vant/tree/v2.2.11)
+`2019-11-04`
+
+**Features**
+
+- Switch: add click event [\#4915](https://github.com/youzan/vant/pull/4915)
+- Switch: support number type of size prop [\#4913](https://github.com/youzan/vant/pull/4913)
+- Toast: change default duration to 2s [\#4886](https://github.com/youzan/vant/pull/4886)
+- Uploader: add closeImagePreview method [\#4901](https://github.com/youzan/vant/pull/4901)
+
+**Bug Fixes**
+
+- fix Button loading color [\#4868](https://github.com/youzan/vant/pull/4868)
+- fix CountDown should clear timer when destroyed [\#4918](https://github.com/youzan/vant/pull/4918)
+- fix CountDown should pause timer when deactivated [\#4919](https://github.com/youzan/vant/pull/4919)
+- fix Grid info、dot prop not work when use icon slot [\#4902](https://github.com/youzan/vant/pull/4902)
+
+
+### [v2.2.10](https://github.com/youzan/vant/tree/v2.2.10)
+`2019-10-27`
+
+**Features**
+
+- Icon: add font-display auto property [\#4831](https://github.com/youzan/vant/pull/4831)
+- Popup: add close-on-popstate prop [\#4845](https://github.com/youzan/vant/pull/4845)
+- Picker: add swipe-duration prop [\#4816](https://github.com/youzan/vant/pull/4816)
+- Toast: support set default options of specfic type [\#4848](https://github.com/youzan/vant/pull/4848)
+
+**Bug Fixes**
+
+- fix Uploader file preview border radius [\#4846](https://github.com/youzan/vant/pull/4846)
+- fix DatetimePicker incorrecrt initial value when use min-date and filter [\#4837](https://github.com/youzan/vant/pull/4837)
+
+
+### [v2.2.9](https://github.com/youzan/vant/tree/v2.2.9)
+`2019-10-20`
+
+**Features**
+
+- Tag: add closeable prop [\#4763](https://github.com/youzan/vant/pull/4763)
+- Loading: add some less vars [\#4781](https://github.com/youzan/vant/pull/4781)
+- Progress: add some less vars [\#4790](https://github.com/youzan/vant/pull/4790)
+- Progress: add track-color prop [\#4789](https://github.com/youzan/vant/pull/4789)
+- Toast: add @toast-loading-icon-color var [\#4782](https://github.com/youzan/vant/pull/4782)
+- Picker: add @picker-loading-icon-color var [\#4787](https://github.com/youzan/vant/pull/4787)
+- ImagePreview: add cover slot [\#4766](https://github.com/youzan/vant/pull/4766)
+
+**Bug Fixes**
+
+- fix Tag incorrect round radius [\#4762](https://github.com/youzan/vant/pull/4762)
+- fix Sku emit sku-selected event when reset sku [\#4755](https://github.com/youzan/vant/pull/4755)
+- fix ImagePreview should not close when click index [\#4764](https://github.com/youzan/vant/pull/4764)
+- fix AddressEdit choose overseas failure when configuring placeholer [\#4769](https://github.com/youzan/vant/pull/4769)
+
+
+### [v2.2.8](https://github.com/youzan/vant/tree/v2.2.8)
+`2019-10-17`
+
+**Features**
+
+- Dialog: update border radius [\#4730](https://github.com/youzan/vant/pull/4730)
+- Uploader: update delete icon style [\#4712](https://github.com/youzan/vant/pull/4712)
+- Field: add show-word-limit prop [\#4721](https://github.com/youzan/vant/pull/4721)
+- Stepper: limit decimal length when input [\#4747](https://github.com/youzan/vant/pull/4747)
+- Slider: improve click area [\#4701](https://github.com/youzan/vant/pull/4701)
+- ActionSheet: add description prop [\#4691](https://github.com/youzan/vant/pull/4691)
+- Slider: add slide animation [\#4700](https://github.com/youzan/vant/pull/4700)
+- add gradient color variables [\#4752](https://github.com/youzan/vant/pull/4752)
+- add multi-line ellipsis classes [\#4690](https://github.com/youzan/vant/pull/4690)
+
+**Bug Fixes**
+
+- fix AddressEdit area confirmation verification [\#4724](https://github.com/youzan/vant/pull/4724)
+- fix Rate incorrect height caused by inline-block [\#4693](https://github.com/youzan/vant/pull/4693)
+- fix Slider pseudo element may casue body overflow-x [\#4699](https://github.com/youzan/vant/pull/4699)
+
+
+### [v2.2.7](https://github.com/youzan/vant/tree/v2.2.7)
+`2019-10-11`
+
+**Features**
+
+- Dialog: add width prop [\#4687](https://github.com/youzan/vant/pull/4687)
+- Dialog: add overlay-class prop [\#4683](https://github.com/youzan/vant/pull/4683)
+- Dialog: add overlay-style prop [\#4682](https://github.com/youzan/vant/pull/4682)
+- Uploader: add file result-type [\#4680](https://github.com/youzan/vant/pull/4680)
+- TreeSelect: add className option [\#4671](https://github.com/youzan/vant/pull/4671)
+
+**Bug Fixes**
+
+- fix Dialog avoid text blurry [\#4686](https://github.com/youzan/vant/pull/4686)
+- fix Stepper can't work when step is small [\#4675](https://github.com/youzan/vant/pull/4675)
+- fix DatetimePicker should update value when range changed [\#4676](https://github.com/youzan/vant/pull/4676)
+- fix Field incorrect placeholder color when error and disabled [\#4666](https://github.com/youzan/vant/pull/4666)
+
+
+### [v2.2.6](https://github.com/youzan/vant/tree/v2.2.6)
+`2019-10-08`
+
+**Features**
+
+- Grid: add icon-size prop [\#4656](https://github.com/youzan/vant/pull/4656)
+- Toast: add transition option [\#4638](https://github.com/youzan/vant/pull/4638)
+- Dialog: add transition prop [\#4636](https://github.com/youzan/vant/pull/4636)
+- Dialog: add open、close event [\#4633](https://github.com/youzan/vant/pull/4633)
+- Dialog: add opened、closed event [\#4634](https://github.com/youzan/vant/pull/4634)
+- NumberKeyboard: add extra-key slot [\#4644](https://github.com/youzan/vant/pull/4644)
+- CheckboxGroup: add toggleAll method [\#4640](https://github.com/youzan/vant/pull/4640)
+
+**Bug Fixes**
+
+- fix AddressList input event triggered twice [\#4659](https://github.com/youzan/vant/pull/4659)
+- fix Tabs incorrect padding when type is card [\#4658](https://github.com/youzan/vant/pull/4658)
+- fix GoodsAction incorrect border radius [\#4653](https://github.com/youzan/vant/pull/4653)
+- fix NumberKeyboard compatible with Vue 2.6 event bubble bug [\#4632](https://github.com/youzan/vant/pull/4632)
+
+
+### [v2.2.5](https://github.com/youzan/vant/tree/v2.2.5)
+`2019-09-28`
+
+**Features**
+
+- Picker: add columns-top slot [\#4607](https://github.com/youzan/vant/pull/4607)
+- Picker: add columns-bottom slot [\#4607](https://github.com/youzan/vant/pull/4607)
+- Overlay: add default slot [\#4571](https://github.com/youzan/vant/pull/4571)
+- Overlay: add custom-style prop [\#4572](https://github.com/youzan/vant/pull/4572)
+- Checkbox: add bind-group prop [\#4600](https://github.com/youzan/vant/pull/4600)
+- DropdownItem: add get-container prop [\#4611](https://github.com/youzan/vant/pull/4611)
+- Area: add columns-placeholder prop [\#4580](https://github.com/youzan/vant/pull/4580)
+- AddressEdit: add area-columns-placeholder props [\#4584](https://github.com/youzan/vant/pull/4584)
+
+**Bug Fixes**
+
+- fix Overlay type definition missing [\#4601](https://github.com/youzan/vant/pull/4601)
+- fix Swipe incorrect swipeTo animation [\#4570](https://github.com/youzan/vant/pull/4570)
+- fix Uploader incorrect preview index when upload same images [\#4577](https://github.com/youzan/vant/pull/4577)
+
+
+### [v2.2.4](https://github.com/youzan/vant/tree/v2.2.4) [Deprecated]
+`2019-09-28` 🇨🇳
+
+**Tips**
+
+- There is a style loss issue in this version, please use version 2.2.5
+
+
+### [v2.2.3](https://github.com/youzan/vant/tree/v2.2.3)
+`2019-09-24`
+
+**Features**
+
+- Cell: improve accessibility [\#4519](https://github.com/youzan/vant/pull/4519)
+- Popup: improve accessibility [\#4516](https://github.com/youzan/vant/pull/4516)
+- Search: improve accessibility [\#4522](https://github.com/youzan/vant/pull/4522)
+- Picker: improve accessibility [\#4521](https://github.com/youzan/vant/pull/4521)
+- GridItem: improve accessbility [\#4517](https://github.com/youzan/vant/pull/4517)
+- ActionSheet: improve accessibility [\#4525](https://github.com/youzan/vant/pull/4525)
+- Sku: add sku item previewImgUrl [\#4562](https://github.com/youzan/vant/pull/4562)
+- ActionSheet: enable round by default [\#4542](https://github.com/youzan/vant/pull/4542)
+- RadioGroup: add icon-size prop [\#4529](https://github.com/youzan/vant/pull/4529)
+- RadioGroup: add checked-color prop [\#4532](https://github.com/youzan/vant/pull/4532)
+- CheckboxGroup: add icon-size prop [\#4530](https://github.com/youzan/vant/pull/4530)
+- CheckboxGroup: add checked-color prop [\#4531](https://github.com/youzan/vant/pull/4531)
+- ActionSheet: enable safe-area-inset-bottom by default [\#4524](https://github.com/youzan/vant/pull/4524)
+- NumberKeyboard: enable safe-area-inset-bottom by default [\#4544](https://github.com/youzan/vant/pull/4544)
+
+
+### [v2.2.2](https://github.com/youzan/vant/tree/v2.2.2)
+`2019-09-19`
+
+**Features**
+
+- Dialog: improve word wrap [\#4506](https://github.com/youzan/vant/pull/4506)
+- Search: add action-text prop [\#4501](https://github.com/youzan/vant/pull/4501)
+- Popup: add close-icon-position prop [\#4507](https://github.com/youzan/vant/pull/4507)
+- Uploader: add index param in events [\#4460](https://github.com/youzan/vant/pull/4460)
+- GoodsActionButton: increase height [\#4461](https://github.com/youzan/vant/pull/4461)
+- AddressList: add @address-list-item-radio-icon-color var [\#4481](https://github.com/youzan/vant/pull/4481)
+
+**Bug Fixes**
+
+- fix Field disabled color in safari [\#4508](https://github.com/youzan/vant/pull/4508)
+- fix ImagePreview incorrect scale [\#4477](https://github.com/youzan/vant/pull/4477)
+- fix DatetimePicker infinite loop when use formatted text is unnumeric [\#4485](https://github.com/youzan/vant/pull/4485)
+
+
+### [v2.2.1](https://github.com/youzan/vant/tree/v2.2.1)
+`2019-09-12`
+
+**Features**
+
+- Icon: add dot prop [\#4425](https://github.com/youzan/vant/pull/4425)
+- Icon: add down、wap-home icon [\#4404](https://github.com/youzan/vant/pull/4404)
+- Circle: update text style [\#4401](https://github.com/youzan/vant/pull/4401)
+- GridItem: add dot prop [\#4426](https://github.com/youzan/vant/pull/4426)
+- GridItem: add info prop [\#4424](https://github.com/youzan/vant/pull/4424)
+- Progress: add stroke-width prop [\#4397](https://github.com/youzan/vant/pull/4397)
+- Popup: add safe-area-inset-bottom prop [\#4419](https://github.com/youzan/vant/pull/4419)
+- Tab: add to、url、replace prop [\#4422](https://github.com/youzan/vant/pull/4422)
+- TreeSelect: add dot option [\#4433](https://github.com/youzan/vant/pull/4433)
+- Stepper: add decimal-length prop [\#4443](https://github.com/youzan/vant/pull/4443)
+- Sku: add stock-threshold prop [\#4444](https://github.com/youzan/vant/pull/4444)
+- Sku: add safe-area-inset-bottom prop [\#4428](https://github.com/youzan/vant/pull/4428)
+- Sku: update sku style [\#4437](https://github.com/youzan/vant/pull/4437)
+- SidebarItem: add dot prop [\#4432](https://github.com/youzan/vant/pull/4432)
+
+**Bug Fixes**
+
+- fix Sku incorrect button position [\#4427](https://github.com/youzan/vant/pull/4427)
+- fix Uploader should't emit click-preview when delete [\#4407](https://github.com/youzan/vant/pull/4407)
+- fix Progress incorrect pivot position [\#4396](https://github.com/youzan/vant/pull/4396)
+
+
+### [v2.2.0](https://github.com/youzan/vant/tree/v2.2.0)
+`2019-09-06`
+
+**Features**
+
+- Style: update basic red color [\#4368](https://github.com/youzan/vant/pull/4368)
+- Rate: add touchable prop [\#4361](https://github.com/youzan/vant/pull/4361)
+- Rate: should be inline-block [\#4334](https://github.com/youzan/vant/pull/4334)
+- Rate: optimize touchmove gesture [\#4336](https://github.com/youzan/vant/pull/4336)
+- Popup: add closeable prop [\#4362](https://github.com/youzan/vant/pull/4362)
+- Popup: add close-icon prop [\#4366](https://github.com/youzan/vant/pull/4366)
+- Sidebar: remove border [\#4382](https://github.com/youzan/vant/pull/4382)
+- SidebarItem add disabled prop [\#4325](https://github.com/youzan/vant/pull/4325)
+- TreeSelect: add max prop [\#4323](https://github.com/youzan/vant/pull/4323)
+- TreeSelect: support show info [\#4384](https://github.com/youzan/vant/pull/4384)
+- Uploader: add close-preview event [\#4376](https://github.com/youzan/vant/pull/4376)
+- ImagePreview: add image loading tip [\#4378](https://github.com/youzan/vant/pull/4378)
+
+**Bug Fixes**
+
+- fix Field should reset appearance in safari [\#4380](https://github.com/youzan/vant/pull/4380)
+- fix Button should hide border when color is linear-gradient [\#4342](https://github.com/youzan/vant/pull/4342)
+- fix Dialog should reset loading when closed [\#4352](https://github.com/youzan/vant/pull/4352)
+- fix Slider should format initial value [\#4337](https://github.com/youzan/vant/pull/4337)
+- fix Sidebar incorrect info position [\#4324](https://github.com/youzan/vant/pull/4324)
+- fix DropdownItem missing default active color [\#4330](https://github.com/youzan/vant/pull/4330)
+- fix NumberKeyboard incorrect button position in iphoneX [\#4304](https://github.com/youzan/vant/pull/4304)
+- fix ImagePreview should reset scale after toggle [\#4319](https://github.com/youzan/vant/pull/4319)
+- fix ImagePreview should emit change event when reset to start position [\#4320](https://github.com/youzan/vant/pull/4320)
+
+
+### [v2.1.8](https://github.com/youzan/vant/tree/v2.1.8)
+`2019-08-29`
+
+**Features**
+
+- Picker: add allow-html prop [\#4278](https://github.com/youzan/vant/pull/4278)
+- PasswordInput: add focused prop [\#4279](https://github.com/youzan/vant/pull/4279)
+- GoodsActionButton: add color prop [\#4255](https://github.com/youzan/vant/pull/4255)
+- Button: color prop support linear-gradient [\#4252](https://github.com/youzan/vant/pull/4252)
+
+**Bug Fixes**
+
+- fix Circle stroke-width can't be greater than 60 [\#4256](https://github.com/youzan/vant/pull/4256)
+- fix Picker should avoid click event when moving [\#4273](https://github.com/youzan/vant/pull/4273)
+- fix Picker incorrect position when pause momentum [\#4277](https://github.com/youzan/vant/pull/4277)
+
+
+### [v2.1.7](https://github.com/youzan/vant/tree/v2.1.7)
+`2019-08-26`
+
+**Bug Fixes**
+
+- fix RadioGroup disabled prop not work [\#4242](https://github.com/youzan/vant/pull/4242)
+- fix CheckboxGroup disabled prop not work [\#4242](https://github.com/youzan/vant/pull/4242)
+
+
+### [v2.1.6](https://github.com/youzan/vant/tree/v2.1.6)
+`2019-08-26`
+
+**Features**
+
+- Tag: add warning type [\#4232](https://github.com/youzan/vant/pull/4232)
+- Image: add radius prop [\#4230](https://github.com/youzan/vant/pull/4230)
+- Notify: add type prop [\#4237](https://github.com/youzan/vant/pull/4237)
+- CellGroup: add title slot [\#4227](https://github.com/youzan/vant/pull/4227)
+- Sku: initialSku can be set dynamically [\#4214](https://github.com/youzan/vant/pull/4214)
+- Sku: can preview images of non-first level sku [\#4236](https://github.com/youzan/vant/pull/4236)
+- Locale: add Spanish translation [\#4235](https://github.com/youzan/vant/pull/4235)
+
+
+- fix Tabbar incorrect active style in route mode [\#4229](https://github.com/youzan/vant/pull/4229)
+- fix NumberKeyboard incorrect sidebar position when has title [\#4228](https://github.com/youzan/vant/pull/4228)
+- fix IndexBar the problem of rolling out parent boundaries when sticky bottom [\#4218](https://github.com/youzan/vant/pull/4218)
+
+
+### [v2.1.5](https://github.com/youzan/vant/tree/v2.1.5)
+`2019-08-23`
+
+**Features**
+
+- Toast: add closeOnClick option [\#4192](https://github.com/youzan/vant/pull/4192)
+- Uploader: add image-fit prop [\#4189](https://github.com/youzan/vant/pull/4189)
+- Uploader: add click-preview event [\#4206](https://github.com/youzan/vant/pull/4206)
+- Uploader: add preview-full-image prop [\#4205](https://github.com/youzan/vant/pull/4205)
+- DropdownMenu: add @dropdown-menu-title-active-text-color less var [\#4208](https://github.com/youzan/vant/pull/4208)
+
+**Bug Fixes**
+
+- fix IndexBar sticky bug [\#4184](https://github.com/youzan/vant/pull/4184)
+- fix NumberKeyboard border color [\#4183](https://github.com/youzan/vant/pull/4183)
+- fix Area can't select some oversea countries [\#4195](https://github.com/youzan/vant/pull/4195)
+
+
+
+### [v2.1.4](https://github.com/youzan/vant/tree/v2.1.4)
+`2019-08-21`
+
+**Features**
+
+- Col: add click event [\#4169](https://github.com/youzan/vant/pull/4169)
+- Row: add click event [\#4170](https://github.com/youzan/vant/pull/4170)
+- Area: add is-oversea-code prop [\#4163](https://github.com/youzan/vant/pull/4163)
+- Circle: support gradient color [\#4157](https://github.com/youzan/vant/pull/4157)
+- Circle: support number type of size prop [\#4160](https://github.com/youzan/vant/pull/4160)
+- Tabbar: support match route by to.name [\#4148](https://github.com/youzan/vant/pull/4148)
+- Sku: should close image preview when popstate [\#4152](https://github.com/youzan/vant/pull/4152)
+- Uploader: should close image preview when popstate [\#4151](https://github.com/youzan/vant/pull/4151)
+- Uploader: support more image types [\#4140](https://github.com/youzan/vant/pull/4140)
+- TreeSelect: support multiple select [\#4130](https://github.com/youzan/vant/pull/4130)
+- TreeSelect: active-id support sync modifier [\#4133](https://github.com/youzan/vant/pull/4133)
+- TreeSelect: main-active-index support sync modifier [\#4132](https://github.com/youzan/vant/pull/4132)
+
+**Bug Fixes**
+
+- fix Sku unextracted i18n message [\#4172](https://github.com/youzan/vant/pull/4172)
+- fix Tabbar avoid navigation duplicated [\#4147](https://github.com/youzan/vant/pull/4147)
+- fix Field button width shrinked in firefox [\#4144](https://github.com/youzan/vant/pull/4144)
+- fix Picker prevent style be override by base.css [\#4136](https://github.com/youzan/vant/pull/4136)
+
+
+### [v2.1.3](https://github.com/youzan/vant/tree/v2.1.3)
+`2019-08-15`
+
+**Features**
+
+- Sku: support i18n [\#4123](https://github.com/youzan/vant/pull/4123)
+- Button: add color prop [\#4124](https://github.com/youzan/vant/pull/4124)
+- Collapse: log tips for incorrect value [\#4122](https://github.com/youzan/vant/pull/4122)
+- Uploader: add before-delete prop [\#4118](https://github.com/youzan/vant/pull/4118)
+- TreeSelect: add content slot [\#4105](https://github.com/youzan/vant/pull/4105)
+- TreeSelect: support string type of height prop [\#4107](https://github.com/youzan/vant/pull/4107)
+- NumberKeyboard: improve click experience [\#4116](https://github.com/youzan/vant/pull/4116)
+
+**Bug Fixes**
+
+- fix DropdownMenu incorrect style when inside NavBar [\#4098](https://github.com/youzan/vant/pull/4098)
+- fix Tab incorrect title position when insert tab pane [\#4091](https://github.com/youzan/vant/pull/4091)
+- fix Icon service-o icon incomplete [\#4088](https://github.com/youzan/vant/pull/4088)
+- fix Icon gift-o、refund-o icon incomplete [\#4089](https://github.com/youzan/vant/pull/4089)
+- fix Slider should not emit change event when value not changed [\#4087](https://github.com/youzan/vant/pull/4087)
+
+
+### [v2.1.2](https://github.com/youzan/vant/tree/v2.1.2)
+`2019-08-10`
+
+**Features**
+
+- ActionSheet: add color option [\#4073](https://github.com/youzan/vant/pull/4073)
+- AddressEdit: add postal-validator prop [\#4067](https://github.com/youzan/vant/pull/4067)
+- Stepper: add show-plus、show-minus prop [\#4056](https://github.com/youzan/vant/pull/4056)
+- Divider: add separator role to improve accessibility [\#4069](https://github.com/youzan/vant/pull/4069)
+- DropdownMenu: add more less vars [\#4071](https://github.com/youzan/vant/pull/4071)
+- Uploader: support isImage flag [\#4072](https://github.com/youzan/vant/pull/4072)
+- Field: increase clickable area of icon [\#4058](https://github.com/youzan/vant/pull/4058)
+- Picker: stop propagation when touchmove in vertical direction [\#4043](https://github.com/youzan/vant/pull/4043)
+- Icon: add warning、good-job、good-job-o icon [\#4038](https://github.com/youzan/vant/pull/4038)
+- Icon: add smile、music、thumb-circle、phone-circle icon [\#4048](https://github.com/youzan/vant/pull/4048)
+- List: unify text font-size [\#4077](https://github.com/youzan/vant/pull/4077)
+- Image: img inherit round border [\#4032](https://github.com/youzan/vant/pull/4032)
+- adjust globalObject to support module script [\#4080](https://github.com/youzan/vant/pull/4080)
+
+**Bug Fixes**
+
+- fix Sticky incorrect position when inside scroll container [\#4055](https://github.com/youzan/vant/pull/4055)
+
+
+### [v2.1.1](https://github.com/youzan/vant/tree/v2.1.1)
+`2019-08-02`
+
+**Bug Fixes**
+
+- fix DatetimePicker event not work [\#4027](https://github.com/youzan/vant/pull/4027)
+- fix Popup ensure z-index setting order [\#4026](https://github.com/youzan/vant/pull/4026)
+
+
+### [v2.1.0](https://github.com/youzan/vant/tree/v2.1.0) [deprecated]
+`2019-08-01`
+
+**Features**
+
+- GoodsAction: update style [\#3967](https://github.com/youzan/vant/pull/3967)
+- Sku: update style [\#3875](https://github.com/youzan/vant/pull/3875) [\#3922](https://github.com/youzan/vant/pull/3922)
+- Sku: add price-tag prop [\#3875](https://github.com/youzan/vant/pull/3875)
+- Sku: add hide-selected-text prop [\#3875](https://github.com/youzan/vant/pull/3875)
+- Sku: add sku-header-origin-price slot [\#3958](https://github.com/youzan/vant/pull/3958)
+- Dialog: add title slot [\#3985](https://github.com/youzan/vant/pull/3985)
+- Dialog: centered in screen [\#3905](https://github.com/youzan/vant/pull/3905)
+- Uploader: add less vars [\#3907](https://github.com/youzan/vant/pull/3907)
+- ActionSheet: add less vars [\#3908](https://github.com/youzan/vant/pull/3908)
+- AddressList: add click-item event [\#3942](https://github.com/youzan/vant/pull/3942)
+- CouponList: add empty-image prop [\#3941](https://github.com/youzan/vant/pull/3941)
+- SwipeCell: add stop-propagation prop [\#3952](https://github.com/youzan/vant/pull/3952)
+- ImagePreview: add swipe-duration prop [\#3963](https://github.com/youzan/vant/pull/3963)
+
+**Bug Fixes**
+
+- fix Tabs incorrect line position in some cases [\#3961](https://github.com/youzan/vant/pull/3961)
+- fix ImagePreview should reset onClose & onChange option [\#3960](https://github.com/youzan/vant/pull/3960)
+- fix DatetimePicker incorrect confirm param when use formatter [\#3969](https://github.com/youzan/vant/pull/3969)
+- fix Tabs fix scroll position deviation when sticky [\#3949](https://github.com/youzan/vant/pull/3949)
+- fix IndexBar should update when index-list updated [\#3943](https://github.com/youzan/vant/pull/3943)
+- fix AddressList can't select item when click empty area [\#3909](https://github.com/youzan/vant/pull/3909)
+- fix ImagePreview Image beyond the screen height cover index [\#4002](https://github.com/youzan/vant/pull/4002)
+- fix Radio: can't select when click gap [\#4007](https://github.com/youzan/vant/pull/4007)
+- fix SwipeCell should not prevent touchmove when opened [\#3982](https://github.com/youzan/vant/pull/3982)
+
+
+### [v2.0.9](https://github.com/youzan/vant/tree/v2.0.9)
+`2019-07-19`
+
+**Features**
+
+- add Sticky component [\#3888](https://github.com/youzan/vant/pull/3888)
+- Grid: optimize word break [\#3897](https://github.com/youzan/vant/pull/3897)
+- Image: add round prop [\#3838](https://github.com/youzan/vant/pull/3838)
+- Image: add show-error prop [\#3896](https://github.com/youzan/vant/pull/3896)
+- Image: add show-loading prop [\#3893](https://github.com/youzan/vant/pull/3893)
+- Toast: add iconPrefix option [\#3872](https://github.com/youzan/vant/pull/3872)
+- Toast: optimize image icon display [\#3895](https://github.com/youzan/vant/pull/3895)
+- TreeSelect: add click-nav、click-item event [\#3892](https://github.com/youzan/vant/pull/3892)
+- ActionSheet: add round prop [\#3874](https://github.com/youzan/vant/pull/3874)
+- Uploader: support preview network image [\#3899](https://github.com/youzan/vant/pull/3899)
+
+**Bug Fixes**
+
+- fix Dialog closeOnPopstate can't be disabled [\#3868](https://github.com/youzan/vant/pull/3868)
+- fix DropdownMenu cann't use toggle to open item [\#3876](https://github.com/youzan/vant/pull/3876)
+- fix SwipeCell should stop event propagation [\#3898](https://github.com/youzan/vant/pull/3898)
+
+
+### [v2.0.8](https://github.com/youzan/vant/tree/v2.0.8)
+`2019-07-16`
+
+**Features**
+
+- Sku: support custom placeholder [\#3864](https://github.com/youzan/vant/pull/3864)
+- DropdownMenu: add icon option [\#3855](https://github.com/youzan/vant/pull/3855)
+- DropdownMenu: optimize title ellipsis [\#3847](https://github.com/youzan/vant/pull/3847)
+- ImagePreview: support double click zoom [\#3839](https://github.com/youzan/vant/pull/3839)
+
+**Bug Fixes**
+
+- fix Tab: click event param missing [\#3866](https://github.com/youzan/vant/pull/3866)
+- fix List not work when body is the scrolling container [\#3844](https://github.com/youzan/vant/pull/3844)
+- fix IndexBar incorrect active anchor in some cases [\#3832](https://github.com/youzan/vant/pull/3832)
+
+
+### [v2.0.7](https://github.com/youzan/vant/tree/v2.0.7)
+`2019-07-11`
+
+**Features**
+
+- add CountDown component [\#3805](https://github.com/youzan/vant/pull/3805)
+- Popup: add round prop [\#3781](https://github.com/youzan/vant/pull/3781)
+- PullRefresh: add distance of slotProps [\#3829](https://github.com/youzan/vant/pull/3829)
+- DropdownMenu: add close-on-click-outside prop [\#3824](https://github.com/youzan/vant/pull/3824)
+- Swipe: add immediate option of swipeTo method [\#3821](https://github.com/youzan/vant/pull/3821)
+- Slider: support number type of bar-height prop [\#3794](https://github.com/youzan/vant/pull/3794)
+- IndexBar: add sticky-offset-top prop [\#3791](https://github.com/youzan/vant/pull/3791)
+
+**Bug Fixes**
+
+- fix Popup overlay may cover popup in some cases [\#3831](https://github.com/youzan/vant/pull/3831)
+- fix Stepper add hack for iOS 12 page scroll [\#3804](https://github.com/youzan/vant/pull/3804)
+- fix Dialog missing closeOnPopstate in type definition [\#3789](https://github.com/youzan/vant/pull/3789)
+- fix DatetimePicker confirm event param incorrect when use filter [\#3816](https://github.com/youzan/vant/pull/3816)
+
+
+### [v2.0.6](https://github.com/youzan/vant/tree/v2.0.6)
+`2019-07-05`
+
+**Features**
+
+- add Divider component [\#3755](https://github.com/youzan/vant/pull/3755)
+- Tab: add name prop [\#3762](https://github.com/youzan/vant/pull/3762)
+- Sku: add add-cart-text prop [\#3725](https://github.com/youzan/vant/pull/3725)
+
+**Bug Fixes**
+
+- fix Swipe fix blank area when use width prop [\#3751](https://github.com/youzan/vant/pull/3751)
+- fix Grid gutter can be string type [\#3741](https://github.com/youzan/vant/pull/3741)
+- fix Collapse use double raf to ensure animation can start [\#3723](https://github.com/youzan/vant/pull/3723)
+- fix PullRefresh ensure value change can be watched [\#3719](https://github.com/youzan/vant/pull/3719)
+
+
+### [v2.0.5](https://github.com/youzan/vant/tree/v2.0.5)
+`2019-07-02`
+
+**Features**
+
+- Stepper: add button-size prop [\#3714](https://github.com/youzan/vant/pull/3714)
+- Stepper: support long press gesture [\#3711](https://github.com/youzan/vant/pull/3711)
+- Dialog: add close-on-popstate prop [\#3709](https://github.com/youzan/vant/pull/3709)
+
+**Bug Fixes**
+
+- fix postcss config overwritten issue
+
+
+### [v2.0.4](https://github.com/youzan/vant/tree/v2.0.4)
+`2019-07-01`
+
+**Features**
+
+- add Grid、GridItem component [\#3669](https://github.com/youzan/vant/pull/3669) [\#3682](https://github.com/youzan/vant/pull/3682) [\#3683](https://github.com/youzan/vant/pull/3683)
+- Field: add arrow-direction prop [\#3679](https://github.com/youzan/vant/pull/3679)
+- Sidebar: add to、replace prop [\#3696](https://github.com/youzan/vant/pull/3696)
+- Sidebar: support use v-model to bind active key [\#3698](https://github.com/youzan/vant/pull/3698)
+- IndexBar: add class for active index [\#3692](https://github.com/youzan/vant/pull/3692)
+- Uploader: support number type of name prop [\#3681](https://github.com/youzan/vant/pull/3681)
+- SwipeCell: add name prop [\#3680](https://github.com/youzan/vant/pull/3680)
+- AddressEdit: add detail-maxlength prop [\#3707](https://github.com/youzan/vant/pull/3707)
+- GoodsActionIcon: add icon slot [\#3705](https://github.com/youzan/vant/pull/3705)
+
+**Bug Fixes**
+
+- fix Collapse flick in safari [\#3686](https://github.com/youzan/vant/pull/3686)
+- fix Picker compatibility issues on lower versions of Android [\#3688](https://github.com/youzan/vant/pull/3688)
+
+
+### [v2.0.3](https://github.com/youzan/vant/tree/v2.0.3)
+`2019-06-27`
+
+**Features**
+
+- ActionSheet: add duration prop [\#3608](https://github.com/youzan/vant/pull/3608)
+- ActionSheet: add open、opened events [\#3639](https://github.com/youzan/vant/pull/3639)
+- ActionSheet: add close、closed events [\#3639](https://github.com/youzan/vant/pull/3639)
+- Icon: add fit mode for image content [\#3667](https://github.com/youzan/vant/pull/3667)
+- Icon: update checked、comment、comment-o icon [\#3615](https://github.com/youzan/vant/pull/3615)
+- ImagePreview: add onChange option [\#3630](https://github.com/youzan/vant/pull/3630)
+- Popup: optimize overlay animation duration [\#3610](https://github.com/youzan/vant/pull/3610)
+- Uploader: support preview non-image file [\#3604](https://github.com/youzan/vant/pull/3604)
+- Uploader: support click to preview image [\#3603](https://github.com/youzan/vant/pull/3603)
+- Stepper: add less vars [\#3599](https://github.com/youzan/vant/pull/3599)
+
+**Bug Fixes**
+
+- fix ImagePreview should lock scroll [\#3645](https://github.com/youzan/vant/pull/3645)
+- fix Tab may cause error when render title slot [\#3631](https://github.com/youzan/vant/pull/3631)
+- fix vetur auto-complete [\#3617](https://github.com/youzan/vant/pull/3617)
+
+
+### [v2.0.2](https://github.com/youzan/vant/tree/v2.0.2)
+`2019-06-21`
+
+**Features**
+
+- Card: add click-thumb event [\#3586](https://github.com/youzan/vant/pull/3586)
+- CouponList: add enabled-title、disabled-title props [\#3578](https://github.com/youzan/vant/pull/3578)
+- Slider: min/max can set any value [\#3566](https://github.com/youzan/vant/pull/3566)
+- Uploader: before-read prop support promise mode [\#3572](https://github.com/youzan/vant/pull/3572)
+- Picker: update acceleration rate [\#3556](https://github.com/youzan/vant/pull/3556)
+- NumberKeyboard: support v-model [\#3531](https://github.com/youzan/vant/pull/3531)
+- NumberKeyboard: add maxlength prop [\#3532](https://github.com/youzan/vant/pull/3532)
+- add sideEffects to enable tree shaking [\#3530](https://github.com/youzan/vant/pull/3530)
+
+**Bug Fixes**
+
+- fix Button default margin in safari [\#3577](https://github.com/youzan/vant/pull/3577)
+- fix Sku can not preview image when only have goods picture [\#3569](https://github.com/youzan/vant/pull/3569)
+- fix Toast missing type definition of clear method [\#3542](https://github.com/youzan/vant/pull/3542)
+
+
+### [v2.0.1](https://github.com/youzan/vant/tree/v2.0.1)
+`2019-06-15`
+
+**Features**
+
+- Tab: support string type of line-width & line-height [\#3514](https://github.com/youzan/vant/pull/3514)
+- Icon: use image component to display image [\#3515](https://github.com/youzan/vant/pull/3515)
+- Toast: add icon prop [\#3485](https://github.com/youzan/vant/pull/3485)
+- DropdownMenu: add direction prop [\#3490](https://github.com/youzan/vant/pull/3490)
+- NumberKeyboard: add delete slot [\#3499](https://github.com/youzan/vant/pull/3499)
+
+**Bug Fixes**
+
+- fix Image missing type definition [\#3520](https://github.com/youzan/vant/pull/3520)
+- fix SwitchCell incorrect loading position [\#3501](https://github.com/youzan/vant/pull/3501)
+- fix Toast missing fade-out transition in multiple mode [\#3504](https://github.com/youzan/vant/pull/3504)
+- fix Locale can not modify functional message [\#3498](https://github.com/youzan/vant/pull/3498)
+
+
+### [v2.0.0](https://github.com/youzan/vant/tree/v2.0.0)
+`2019-06-12`
+
+#### Overview
+
+- Add four new components
+- Add dozens of APIs
+- Improve accessibility
+- New card style document, support document search
+- All components support custom styles via `less` variables
+- Rename several components, deprecate several APIs
+
+#### New Components
+
+- `Image` Component
+- `Skeleton` Component
+- `IndexBar`、`IndexAnchor` Component
+- `DropdownMenu`、`DropdownItem` Component
+
+![](https://img.yzcdn.cn/public_files/2019/06/10/141ac9b67c06be0811c86c4c1c571c9d.png)
+
+#### Breaking Changes
+
+##### Actionsheet
+
+- Rename to `ActionSheet`
+
+##### Button
+
+- Remove `bottom-action` prop，please use `square` and `size` instead
+
+##### Field
+
+- Remove `on-icon-click` prop，please use `click-right-icon` event instead
+- Rename `icon` prop to `right-icon`
+- Rename `icon` slot to `right-icon`
+- Rename `click-icon` event to `click-right-icon`
+
+##### GoodsAction
+
+- Rename `GoodsActionBigBtn` to `GoodsActionButton`
+- Rename `GoodsActionMiniBtn` to `GoodsActionIcon`
+- Remove `primary` prop of `GoodsActionBigBtn`，please to `type` prop instead
+
+##### Step
+
+- Remove `icon` prop
+- Remove `title` prop
+- Remove `icon-class` prop
+- Remove `description` prop
+- Remove `message-extra` slot
+
+##### Badge
+
+- Rename `BadgeGroup` to `Sidebar`
+- Rename `Badge` to `SlidebarItem`
+
+##### Loading
+
+- Remove `circle` type
+- Remove `gradient-circle` type
+
+##### Checkbox
+
+- Adjusted to `flex` layout, may affect the original layout
+
+##### Radio
+
+- Adjusted to `flex` layout, may affect the original layout
+
+##### Waterfall
+
+- Remove Waterfall component，please use `List` instead，or use [@vant/waterfall](https://github.com/youzan/vant/tree/dev/packages/vant-waterfall)。
+
+---
+
+#### Accessibility
+
+Improve accessibility for those components：
+
+- Accordion
+- Checkbox
+- Dialog
+- DropdownMenu
+- GoodsAction
+- List
+- NoticeBar
+- NumberKeyboard
+- Radio
+- Rate
+- Stepper
+- Tab
+- Slider
+- Switch
+
+#### New Feature
+
+##### ActionSheet
+
+- Add `lock-scroll` prop
+- Add `click-overlay` event
+- Add `close-on-click-action` prop
+- Support both use `title` and `actions` prop
+
+##### Area
+
+- `reset` method support `code` param
+
+##### Button
+
+- Add `icon` prop
+- Add `loading-type` prop
+
+##### Checkbox
+
+- Add `icon-size` prop
+
+##### DatetimePicker
+
+- Add `filter` prop
+
+##### Field
+
+- Add `input` slot
+- Add `click` event
+- Add `clickable` prop
+- Add `label-class` prop
+- No longer update v-model during IME composition
+
+##### GoodsActionButton
+
+- Add `type` prop
+
+##### Icon
+
+- Support `Number` type of `size` prop
+
+##### ImagePreview
+
+- Add `close-on-popstate` prop
+
+##### Loading
+
+- Add `default` slot
+- Add `vertical` prop
+- Add `text-size` prop
+- Support `Number` type of `size` prop
+
+##### Notify
+
+- Add `onClick` option
+- Add `onClose` option
+- Add `onOpened` option
+
+##### NoticeBar
+
+- Add `left-icon` slot
+- Add `right-icon` slot
+
+##### PasswordInput
+
+- Add `gutter` prop
+
+##### Picker
+
+- Support inertial scrolling
+- Add `toolbar-position` prop
+
+##### Popup
+
+- Add `click` event
+- Add `duration` prop
+
+##### Radio
+
+- Add `icon-size` prop
+
+##### Rate
+
+- Add `gutter` prop
+- Support`String` type of `size` prop
+
+##### Search
+
+- Add `clearable` prop
+- Add `left-icon` prop
+- Add `right-icon` prop
+- Add `right-icon` slot
+- No longer update v-model during IME composition
+
+##### Slider
+
+- Add `drag-start` event
+- Add `drag-end` event
+
+##### Steps
+
+- Add `inactive-icon` prop
+- Add `inactive-icon` slot
+
+##### Stepper
+
+- Support`Number` type of `input-width` prop
+
+##### SubmitBar
+
+- Add `tip-icon` prop
+- Add `suffix-label` prop
+
+##### SwipeCell
+
+- Auto calc `left-width` and `right-width`
+
+##### Switch
+
+- The loading icon color will now follow the background color change
+
+##### SwitchCell
+
+- Add `border` prop
+- Add `cell-size` prop
+
+##### Sku
+
+- Add `preview-open` event
+- Add `preview-close` event
+
+##### Tab
+
+- Add `border` prop
+- Optimize `animated` animation performance
+- Fix incorrect tab pane height when use `animated` prop
+
+##### Tabbar
+
+- Add `route` prop
+- Add `border` prop
+- Add `inactive-color` prop
+
+##### TabbarItem
+
+- Add `name` prop
+
+##### Toast
+
+- Add `onOpened` option
+
+##### Uploader
+
+- Add default upload style
+- Add `delete` event
+- Add `upload-text` prop
+- Add `max-count` prop
+- Add `preview-size` prop
+- Add `preview-image` prop
+- Support use `v-model` to bind file-list
+- `oversize` event add `detail` param
