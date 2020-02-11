@@ -1,6 +1,6 @@
-# Vant Cli
+# Vcmp Cli
 
-Vant Cli 是一个 Vue 组件库构建工具，通过 Vant Cli 可以快速搭建一套功能完备的 Vue 组件库。
+Vcmp Cli 是一个 Vue 组件库构建工具，是基于 Vcmp Cli 可以快速搭建一套功能完备的 Vue 组件库。
 
 ### 特性
 
@@ -11,7 +11,7 @@ Vant Cli 是一个 Vue 组件库构建工具，通过 Vant Cli 可以快速搭�
 
 ### 快速上手
 
-执行以下命令可以快速创建一个基于 Vant Cli 的项目：
+执行以下命令可以快速创建一个基于 Vcmp Cli 的项目：
 
 ```bash
 npx create-vant-cli-app
@@ -32,27 +32,21 @@ yarn add @vant/cli --dev
 ```json
 {
   "scripts": {
-    "dev": "vant-cli dev",
-    "test": "vant-cli test",
-    "lint": "vant-cli lint",
-    "release": "vant-cli release",
-    "build-site": "vant-cli build-site"
+    "dev": "vcmp-cli dev",
+    "test": "vcmp-cli test",
+    "lint": "vcmp-cli lint",
+    "release": "vcmp-cli release",
+    "build-site": "vcmp-cli build-site"
   },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "commit-msg": "vant commit-lint"
+      "commit-msg": "vcmp commit-lint"
     }
   },
   "lint-staged": {
-    "*.{ts,tsx,js,jsx,vue}": [
-      "eslint",
-      "git add"
-    ],
-    "*.{vue,css,less,scss}": [
-      "stylelint",
-      "git add"
-    ]
+    "*.{ts,tsx,js,jsx,vue}": ["eslint", "git add"],
+    "*.{vue,css,less,scss}": ["stylelint", "git add"]
   },
   "eslintConfig": {
     "root": true,
