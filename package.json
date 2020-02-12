@@ -1,6 +1,6 @@
 {
-  "name": "vant",
-  "version": "2.4.3",
+  "name": "vcmp",
+  "version": "0.0.1",
   "description": "Mobile UI Components built on Vue",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -26,7 +26,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "commit-msg": "vant-cli commit-lint"
+      "commit-msg": "vcmp-cli commit-lint"
     }
   },
   "lint-staged": {
@@ -45,13 +45,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:youzan/vant.git"
+    "url": "git@github.com:oseco/vcmp.git"
   },
   "keywords": [
     "vue",
     "component"
   ],
-  "author": "youzanfe",
+  "author": "Frank Pan"",
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "7.x",
@@ -63,7 +63,7 @@
     "vue": ">= 2.5.22"
   },
   "devDependencies": {
-    "@vant/cli": "^2.2.0",
+    "@vcmp/cli": "^1.0.1",
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
   },

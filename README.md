@@ -26,14 +26,14 @@
 
 ## Features
 
-* 60+ Reusable components
-* 90% Unit test coverage
-* Extensive documentation and demos
-* Support [babel-plugin-import](https://github.com/ant-design/babel-plugin-import)
-* Support Custom Theme
-* Support i18n
-* Support TS
-* Support SSR
+- 60+ Reusable components
+- 90% Unit test coverage
+- Extensive documentation and demos
+- Support [babel-plugin-import](https://github.com/ant-design/babel-plugin-import)
+- Support Custom Theme
+- Support i18n
+- Support TS
+- Support SSR
 
 ## Install
 
@@ -67,31 +67,15 @@ Modern browsers and Android 4.0+, iOS 8.0+.
 
 ## Ecosystem
 
-| Project | Description |
-|-----|------|
-| [vant-demo](https://github.com/youzan/vant-demo) | Official vant demo collection |
-| [vant-weapp](https://github.com/youzan/vant-weapp) | WeChat MiniProgram UI  |
-| [vant-cli](https://github.com/youzan/vant/tree/dev/packages/vant-cli) | Scaffold for UI library |
-| [vant-icons](https://github.com/youzan/vant/tree/dev/packages/vant-icons) | Vant icons |
+| Project                                                                                     | Description                    |
+| ------------------------------------------------------------------------------------------- | ------------------------------ |
+| [vant-demo](https://github.com/youzan/vant-demo)                                            | Official vant demo collection  |
+| [vant-weapp](https://github.com/youzan/vant-weapp)                                          | WeChat MiniProgram UI          |
+| [vant-cli](https://github.com/youzan/vant/tree/dev/packages/vant-cli)                       | Scaffold for UI library        |
+| [vant-icons](https://github.com/youzan/vant/tree/dev/packages/vant-icons)                   | Vant icons                     |
 | [vant-touch-emulator](https://github.com/youzan/vant/tree/dev/packages/vant-touch-emulator) | Using vant in desktop browsers |
 
 ## Links
 
-* [Documentation](https://youzan.github.io/vant)
-* [Changelog](https://youzan.github.io/vant#/en-US/changelog)
-
-## Preview
-
-You can scan the following QR code to access the demo：
-
-<img src="https://img.yzcdn.cn/vant/preview_qrcode_20180528.png" width="220" height="220" >
-
-## Wechat Group
-
-Scan the qrcode to join our wechat discussion group, please note that you want to join Vant discussion group.
-
-<img src="https://img.yzcdn.cn/vant/wechat_20180606.png" width="220" height="292" >
-
-## LICENSE
-
-[MIT](https://en.wikipedia.org/wiki/MIT_License)
+- [Documentation](https://youzan.github.io/vant)
+- [Changelog](https://youzan.github.io/vant#/en-US/changelog)
