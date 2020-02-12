@@ -1124,7 +1124,7 @@
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/@vant/touch-emulator/download/@vant/touch-emulator-1.2.0.tgz?cache=0&sync_timestamp=1574771845372&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vant%2Ftouch-emulator%2Fdownload%2F%40vant%2Ftouch-emulator-1.2.0.tgz#486300b23e57db9ce9231a04e0a0c621c68692d8"
 
-"@vcmp/cli@1.0.1":
+"@vcmp/cli@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@vcmp/cli/-/cli-1.0.1.tgz#9aa740a5cb228a41094897885ae7065e30f4f27b"
   dependencies:

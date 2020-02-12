@@ -1,0 +1,1248 @@
+{
+  "vcm-action-sheet": {
+    "description": "API",
+    "attributes": [
+      "actions",
+      "title",
+      "cancel-text",
+      "description",
+      "close-icon",
+      "duration",
+      "round",
+      "overlay",
+      "lock-scroll",
+      "lazy-render",
+      "close-on-click-action",
+      "close-on-click-overlay",
+      "safe-area-inset-bottom",
+      "get-container",
+      "select",
+      "cancel",
+      "click-overlay",
+      "open",
+      "opened",
+      "close",
+      "closed"
+    ]
+  },
+  "vcm-address-edit": {
+    "description": "API",
+    "attributes": [
+      "area-list",
+      "area-columns-placeholder",
+      "address-info",
+      "search-result",
+      "show-postal",
+      "show-delete",
+      "show-set-default",
+      "show-search-result",
+      "save-button-text",
+      "delete-button-text",
+      "detail-rows",
+      "detail-maxlength",
+      "is-saving",
+      "is-deleting",
+      "tel-validator",
+      "postal-validator",
+      "validator",
+      "save",
+      "focus",
+      "delete",
+      "cancel-delete",
+      "select-search",
+      "change-area",
+      "change-detail",
+      "change-default"
+    ]
+  },
+  "vcm-address-list": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "list",
+      "disabled-list",
+      "disabled-text",
+      "switchable",
+      "add-button-text",
+      "default-tag-text",
+      "add",
+      "edit",
+      "select",
+      "edit-disabled",
+      "select-disabled",
+      "click-item"
+    ]
+  },
+  "vcm-area": {
+    "description": "API",
+    "attributes": [
+      "value",
+      "title",
+      "area-list",
+      "columns-num",
+      "columns-placeholder",
+      "loading",
+      "item-height",
+      "visible-item-count",
+      "confirm-button-text",
+      "cancel-button-text",
+      "is-oversea-code",
+      "swipe-duration",
+      "confirm",
+      "cancel",
+      "change"
+    ]
+  },
+  "vcm-button": {
+    "description": "API",
+    "attributes": [
+      "type",
+      "size",
+      "text",
+      "color",
+      "icon",
+      "tag",
+      "native-type",
+      "block",
+      "plain",
+      "square",
+      "round",
+      "disabled",
+      "hairline",
+      "loading",
+      "loading-text",
+      "loading-type",
+      "loading-size",
+      "url",
+      "to",
+      "replace",
+      "click",
+      "touchstart"
+    ]
+  },
+  "vcm-calendar": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "type",
+      "title",
+      "color",
+      "min-date",
+      "max-date",
+      "default-date",
+      "row-height",
+      "formatter",
+      "position",
+      "poppable",
+      "round",
+      "show-mark",
+      "show-confirm",
+      "close-on-click-overlay",
+      "safe-area-inset-bottom",
+      "confirm-text",
+      "confirm-disabled-text",
+      "max-range",
+      "range-prompt",
+      "get-container",
+      "select",
+      "confirm"
+    ]
+  },
+  "vcm-card": {
+    "description": "API",
+    "attributes": [
+      "thumb",
+      "title",
+      "desc",
+      "tag",
+      "num",
+      "price",
+      "origin-price",
+      "centered",
+      "currency",
+      "thumb-link",
+      "lazy-load",
+      "click",
+      "click-thumb"
+    ]
+  },
+  "vcm-cell-group": {
+    "description": "API",
+    "attributes": [
+      "title",
+      "border"
+    ]
+  },
+  "vcm-cell": {
+    "description": "API",
+    "attributes": [
+      "icon",
+      "title",
+      "value",
+      "label",
+      "size",
+      "url",
+      "to",
+      "border",
+      "replace",
+      "clickable",
+      "is-link",
+      "required",
+      "center",
+      "arrow-direction",
+      "title-style",
+      "title-class",
+      "value-class",
+      "label-class",
+      "click"
+    ]
+  },
+  "vcm-checkbox": {
+    "description": "API",
+    "attributes": [
+      "name",
+      "shape",
+      "v-model",
+      "disabled",
+      "label-disabled",
+      "label-position",
+      "icon-size",
+      "checked-color",
+      "bind-group",
+      "change",
+      "click"
+    ]
+  },
+  "vcm-checkbox-group": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "disabled",
+      "max",
+      "icon-size",
+      "checked-color",
+      "change"
+    ]
+  },
+  "vcm-circle": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "rate",
+      "size",
+      "color",
+      "layer-color",
+      "fill",
+      "speed",
+      "text",
+      "stroke-width",
+      "stroke-linecap",
+      "clockwise"
+    ]
+  },
+  "vcm-row": {
+    "description": "API",
+    "attributes": [
+      "type",
+      "gutter",
+      "tag",
+      "justify",
+      "align",
+      "click"
+    ]
+  },
+  "vcm-col": {
+    "description": "API",
+    "attributes": [
+      "span",
+      "offset",
+      "tag",
+      "click"
+    ]
+  },
+  "vcm-collapse": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "accordion",
+      "border",
+      "change"
+    ]
+  },
+  "vcm-collapse-item": {
+    "description": "API",
+    "attributes": [
+      "name",
+      "icon",
+      "size",
+      "title",
+      "value",
+      "label",
+      "border",
+      "is-link",
+      "disabled",
+      "title-class",
+      "value-class",
+      "label-class"
+    ]
+  },
+  "vcm-contact-card": {
+    "description": "API",
+    "attributes": [
+      "type",
+      "name",
+      "tel",
+      "add-text",
+      "click"
+    ]
+  },
+  "vcm-contact-list": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "list",
+      "add-text",
+      "default-tag-text",
+      "add",
+      "edit",
+      "select"
+    ]
+  },
+  "vcm-contact-edit": {
+    "description": "API",
+    "attributes": [
+      "contact-info",
+      "is-edit",
+      "is-saving",
+      "is-deleting",
+      "tel-validator",
+      "show-set-default",
+      "set-default-label",
+      "save",
+      "delete"
+    ]
+  },
+  "vcm-count-down": {
+    "description": "API",
+    "attributes": [
+      "time",
+      "format",
+      "auto-start",
+      "millisecond",
+      "finish"
+    ]
+  },
+  "vcm-coupon-cell": {
+    "description": "API",
+    "attributes": [
+      "title",
+      "chosen-coupon",
+      "coupons",
+      "editable",
+      "border",
+      "currency"
+    ]
+  },
+  "vcm-coupon-list": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "chosen-coupon",
+      "coupons",
+      "disabled-coupons",
+      "enabled-title",
+      "disabled-title",
+      "exchange-button-text",
+      "exchange-button-loading",
+      "exchange-button-disabled",
+      "exchange-min-length",
+      "displayed-coupon-index",
+      "show-close-button",
+      "close-button-text",
+      "input-placeholder",
+      "show-exchange-bar",
+      "currency",
+      "empty-image",
+      "show-count",
+      "change",
+      "exchange"
+    ]
+  },
+  "vcm-datetime-picker": {
+    "description": "API",
+    "attributes": [
+      "type",
+      "min-date",
+      "max-date",
+      "min-hour",
+      "max-hour",
+      "min-minute",
+      "max-minute",
+      "filter",
+      "formatter",
+      "title",
+      "show-toolbar",
+      "loading",
+      "item-height",
+      "confirm-button-text",
+      "cancel-button-text",
+      "visible-item-count",
+      "swipe-duration",
+      "change",
+      "confirm",
+      "cancel"
+    ]
+  },
+  "vcm-dialog": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "title",
+      "width",
+      "message",
+      "message-align",
+      "show-confirm-button",
+      "show-cancel-button",
+      "confirm-button-text",
+      "confirm-button-color",
+      "cancel-button-text",
+      "cancel-button-color",
+      "overlay",
+      "overlay-class",
+      "overlay-style",
+      "close-on-popstate",
+      "close-on-click-overlay",
+      "lazy-render",
+      "lock-scroll",
+      "before-close",
+      "transition",
+      "get-container",
+      "confirm",
+      "cancel",
+      "open",
+      "opened",
+      "close",
+      "closed"
+    ]
+  },
+  "vcm-divider": {
+    "description": "API",
+    "attributes": [
+      "dashed",
+      "hairline",
+      "content-position"
+    ]
+  },
+  "vcm-dropdown-menu": {
+    "description": "API",
+    "attributes": [
+      "active-color",
+      "z-index",
+      "duration",
+      "direction",
+      "overlay",
+      "close-on-click-overlay",
+      "close-on-click-outside"
+    ]
+  },
+  "vcm-dropdown-item": {
+    "description": "API",
+    "attributes": [
+      "value",
+      "title",
+      "options",
+      "disabled",
+      "title-class",
+      "get-container",
+      "change",
+      "open",
+      "opened",
+      "close"
+    ]
+  },
+  "vcm-field": {
+    "description": "API",
+    "attributes": [
+      "label",
+      "value",
+      "type",
+      "size",
+      "maxlength",
+      "placeholder",
+      "border",
+      "disabled",
+      "readonly",
+      "required",
+      "clearable",
+      "clickable",
+      "is-link",
+      "autofocus",
+      "show-word-limit",
+      "error",
+      "formatter",
+      "arrow-direction",
+      "error-message",
+      "label-class",
+      "label-width",
+      "label-align",
+      "input-align",
+      "error-message-align",
+      "autosize",
+      "left-icon",
+      "right-icon",
+      "input",
+      "focus",
+      "blur",
+      "clear",
+      "click",
+      "click-left-icon",
+      "click-right-icon"
+    ]
+  },
+  "vcm-goods-action": {
+    "description": "API",
+    "attributes": [
+      "safe-area-inset-bottom"
+    ]
+  },
+  "vcm-goods-action-icon": {
+    "description": "API",
+    "attributes": [
+      "text",
+      "icon",
+      "color",
+      "icon-class",
+      "info",
+      "url",
+      "to",
+      "replace"
+    ]
+  },
+  "vcm-goods-action-button": {
+    "description": "API",
+    "attributes": [
+      "text",
+      "type",
+      "color",
+      "disabled",
+      "loading",
+      "url",
+      "to",
+      "replace"
+    ]
+  },
+  "vcm-grid": {
+    "description": "API",
+    "attributes": [
+      "column-num",
+      "gutter",
+      "border",
+      "center",
+      "square",
+      "clickable",
+      "icon-size"
+    ]
+  },
+  "vcm-grid-item": {
+    "description": "API",
+    "attributes": [
+      "text",
+      "icon",
+      "dot",
+      "info",
+      "url",
+      "to",
+      "replace",
+      "click"
+    ]
+  },
+  "vcm-icon": {
+    "description": "API",
+    "attributes": [
+      "name",
+      "dot",
+      "info",
+      "color",
+      "size",
+      "class-prefix",
+      "tag",
+      "click"
+    ]
+  },
+  "vcm-image": {
+    "description": "API",
+    "attributes": [
+      "src",
+      "fit",
+      "alt",
+      "width",
+      "height",
+      "radius",
+      "round",
+      "lazy-load",
+      "show-error",
+      "show-loading",
+      "error-icon",
+      "loading-icon",
+      "click",
+      "load",
+      "error"
+    ]
+  },
+  "vcm-image-preview": {
+    "description": "API",
+    "attributes": [
+      "images",
+      "start-position",
+      "show-index",
+      "show-indicators",
+      "loop",
+      "swipe-duration",
+      "async-close",
+      "close-on-popstate",
+      "class-name",
+      "lazy-load",
+      "max-zoom",
+      "min-zoom",
+      "close",
+      "change"
+    ]
+  },
+  "vcm-index-bar": {
+    "description": "API",
+    "attributes": [
+      "index-list",
+      "z-index",
+      "sticky",
+      "sticky-offset-top",
+      "highlight-color",
+      "select"
+    ]
+  },
+  "vcm-index-anchor": {
+    "description": "API",
+    "attributes": [
+      "index"
+    ]
+  },
+  "vcm-list": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "finished",
+      "error",
+      "offset",
+      "loading-text",
+      "finished-text",
+      "error-text",
+      "immediate-check",
+      "direction",
+      "load"
+    ]
+  },
+  "vcm-loading": {
+    "description": "API",
+    "attributes": [
+      "color",
+      "type",
+      "size",
+      "text-size",
+      "vertical"
+    ]
+  },
+  "vcm-nav-bar": {
+    "description": "API",
+    "attributes": [
+      "title",
+      "left-text",
+      "right-text",
+      "left-arrow",
+      "fixed",
+      "border",
+      "z-index",
+      "click-left",
+      "click-right"
+    ]
+  },
+  "vcm-notice-bar": {
+    "description": "API",
+    "attributes": [
+      "mode",
+      "text",
+      "delay",
+      "speed",
+      "scrollable",
+      "wrapable",
+      "left-icon",
+      "color",
+      "background",
+      "click",
+      "close"
+    ]
+  },
+  "vcm-number-keyboard": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "show",
+      "theme",
+      "title",
+      "maxlength",
+      "transition",
+      "z-index",
+      "extra-key",
+      "close-button-text",
+      "delete-button-text",
+      "show-delete-key",
+      "hide-on-click-outside",
+      "safe-area-inset-bottom",
+      "input",
+      "delete",
+      "close",
+      "blur",
+      "hide"
+    ]
+  },
+  "vcm-overlay": {
+    "description": "API",
+    "attributes": [
+      "show",
+      "z-index",
+      "duration",
+      "class-name",
+      "custom-style",
+      "click"
+    ]
+  },
+  "vcm-pagination": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "mode",
+      "total-items",
+      "items-per-page",
+      "page-count",
+      "prev-text",
+      "next-text",
+      "show-page-size",
+      "force-ellipses",
+      "change"
+    ]
+  },
+  "vcm-panel": {
+    "description": "API",
+    "attributes": [
+      "title",
+      "desc",
+      "status",
+      "icon"
+    ]
+  },
+  "vcm-password-input": {
+    "description": "API",
+    "attributes": [
+      "value",
+      "length",
+      "mask",
+      "focused",
+      "info",
+      "error-info",
+      "gutter",
+      "focus"
+    ]
+  },
+  "vcm-picker": {
+    "description": "API",
+    "attributes": [
+      "columns",
+      "show-toolbar",
+      "toolbar-position",
+      "title",
+      "loading",
+      "value-key",
+      "item-height",
+      "confirm-button-text",
+      "cancel-button-text",
+      "visible-item-count",
+      "allow-html",
+      "default-index",
+      "swipe-duration",
+      "confirm",
+      "cancel",
+      "change"
+    ]
+  },
+  "vcm-popup": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "overlay",
+      "position",
+      "overlay-class",
+      "overlay-style",
+      "duration",
+      "round",
+      "lock-scroll",
+      "lazy-render",
+      "close-on-popstate",
+      "close-on-click-overlay",
+      "closeable",
+      "close-icon",
+      "close-icon-position",
+      "transition",
+      "get-container",
+      "safe-area-inset-bottom",
+      "click",
+      "open",
+      "opened",
+      "close",
+      "closed",
+      "click-overlay"
+    ]
+  },
+  "vcm-progress": {
+    "description": "API",
+    "attributes": [
+      "inactive",
+      "percentage",
+      "stroke-width",
+      "show-pivot",
+      "color",
+      "text-color",
+      "track-color",
+      "pivot-text",
+      "pivot-color"
+    ]
+  },
+  "vcm-pull-refresh": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "pulling-text",
+      "loosing-text",
+      "loading-text",
+      "success-text",
+      "success-duration",
+      "animation-duration",
+      "head-height",
+      "disabled",
+      "refresh"
+    ]
+  },
+  "vcm-radio": {
+    "description": "API",
+    "attributes": [
+      "name",
+      "shape",
+      "disabled",
+      "label-disabled",
+      "label-position",
+      "icon-size",
+      "checked-color",
+      "click"
+    ]
+  },
+  "vcm-radio-group": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "disabled",
+      "icon-size",
+      "checked-color",
+      "change"
+    ]
+  },
+  "vcm-rate": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "count",
+      "size",
+      "gutter",
+      "color",
+      "void-color",
+      "disabled-color",
+      "icon",
+      "void-icon",
+      "allow-half",
+      "readonly",
+      "disabled",
+      "touchable",
+      "change"
+    ]
+  },
+  "vcm-search": {
+    "description": "API",
+    "attributes": [
+      "label",
+      "shape",
+      "background",
+      "maxlength",
+      "placeholder",
+      "clearable",
+      "autofocus",
+      "show-action",
+      "action-text",
+      "disabled",
+      "readonly",
+      "error",
+      "input-align",
+      "left-icon",
+      "right-icon",
+      "search",
+      "input",
+      "focus",
+      "blur",
+      "clear",
+      "cancel"
+    ]
+  },
+  "vcm-sidebar": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "change"
+    ]
+  },
+  "vcm-sidebar-item": {
+    "description": "API",
+    "attributes": [
+      "title",
+      "dot",
+      "info",
+      "disabled",
+      "url",
+      "to",
+      "replace",
+      "click"
+    ]
+  },
+  "vcm-skeleton": {
+    "description": "API",
+    "attributes": [
+      "row",
+      "row-width",
+      "title",
+      "title-width",
+      "avatar",
+      "avatar-size",
+      "avatar-shape",
+      "loading",
+      "animate"
+    ]
+  },
+  "vcm-sku": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "sku",
+      "goods",
+      "goods-id",
+      "price-tag",
+      "hide-stock",
+      "hide-quota-text",
+      "hide-selected-text",
+      "stock-threshold",
+      "show-add-cart-btn",
+      "buy-text",
+      "add-cart-text",
+      "quota",
+      "quota-used",
+      "reset-stepper-on-hide",
+      "reset-selected-sku-on-hide",
+      "disable-stepper-input",
+      "close-on-click-overlay",
+      "stepper-title",
+      "custom-stepper-config",
+      "message-config",
+      "get-container",
+      "initial-sku",
+      "show-soldout-sku",
+      "safe-area-inset-bottom",
+      "start-sale-num",
+      "properties",
+      "add-cart",
+      "buy-clicked",
+      "stepper-change",
+      "sku-selected",
+      "sku-prop-selected",
+      "open-preview",
+      "close-preview"
+    ]
+  },
+  "vcm-slider": {
+    "description": "API",
+    "attributes": [
+      "value",
+      "max",
+      "min",
+      "step",
+      "bar-height",
+      "active-color",
+      "inactive-color",
+      "disabled",
+      "vertical",
+      "input",
+      "change",
+      "drag-start",
+      "drag-end"
+    ]
+  },
+  "vcm-stepper": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "min",
+      "max",
+      "default-value",
+      "step",
+      "name",
+      "integer",
+      "disabled",
+      "disable-plus",
+      "disable-minus",
+      "disable-input",
+      "async-change",
+      "input-width",
+      "button-size",
+      "show-plus",
+      "show-minus",
+      "long-press",
+      "decimal-length",
+      "change",
+      "overlimit",
+      "plus",
+      "minus",
+      "focus",
+      "blur"
+    ]
+  },
+  "vcm-steps": {
+    "description": "API",
+    "attributes": [
+      "active",
+      "direction",
+      "active-color",
+      "active-icon",
+      "inactive-icon"
+    ]
+  },
+  "vcm-sticky": {
+    "description": "API",
+    "attributes": [
+      "offset-top",
+      "z-index",
+      "container",
+      "scroll"
+    ]
+  },
+  "vcm-submit-bar": {
+    "description": "API",
+    "attributes": [
+      "price",
+      "label",
+      "suffix-label",
+      "text-align",
+      "button-text",
+      "button-type",
+      "tip",
+      "tip-icon",
+      "disabled",
+      "loading",
+      "currency",
+      "decimal-length",
+      "safe-area-inset-bottom",
+      "submit"
+    ]
+  },
+  "vcm-swipe": {
+    "description": "API",
+    "attributes": [
+      "autoplay",
+      "duration",
+      "initial-swipe",
+      "width",
+      "height",
+      "loop",
+      "show-indicators",
+      "indicator-color",
+      "vertical",
+      "touchable",
+      "stop-propagation",
+      "change"
+    ]
+  },
+  "vcm-swipe-item": {
+    "description": "API",
+    "attributes": [
+      "click"
+    ]
+  },
+  "vcm-swipe-cell": {
+    "description": "API",
+    "attributes": [
+      "name",
+      "before-close",
+      "disabled",
+      "left-width",
+      "right-width",
+      "stop-propagation",
+      "click",
+      "open",
+      "close"
+    ]
+  },
+  "vcm-switch": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "loading",
+      "disabled",
+      "size",
+      "active-color",
+      "inactive-color",
+      "active-value",
+      "inactive-value",
+      "change",
+      "click"
+    ]
+  },
+  "vcm-switch-cell": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "title",
+      "border",
+      "cell-size",
+      "loading",
+      "disabled",
+      "size",
+      "active-color",
+      "inactive-color",
+      "active-value",
+      "inactive-value",
+      "change"
+    ]
+  },
+  "vcm-tabs": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "type",
+      "color",
+      "duration",
+      "background",
+      "line-width",
+      "line-height",
+      "animated",
+      "border",
+      "ellipsis",
+      "sticky",
+      "swipeable",
+      "lazy-render",
+      "scrollspy",
+      "offset-top",
+      "swipe-threshold",
+      "title-active-color",
+      "title-inactive-color",
+      "click",
+      "change",
+      "disabled",
+      "rendered",
+      "scroll"
+    ]
+  },
+  "vcm-tab": {
+    "description": "API",
+    "attributes": [
+      "title",
+      "disabled",
+      "dot",
+      "info",
+      "name",
+      "url",
+      "to",
+      "replace",
+      "title-style"
+    ]
+  },
+  "vcm-tabbar": {
+    "description": "API",
+    "attributes": [
+      "v-model",
+      "fixed",
+      "border",
+      "z-index",
+      "active-color",
+      "inactive-color",
+      "route",
+      "safe-area-inset-bottom",
+      "change"
+    ]
+  },
+  "vcm-tabbar-item": {
+    "description": "API",
+    "attributes": [
+      "name",
+      "icon",
+      "dot",
+      "info",
+      "url",
+      "to",
+      "replace"
+    ]
+  },
+  "vcm-tag": {
+    "description": "API",
+    "attributes": [
+      "type",
+      "size",
+      "color",
+      "plain",
+      "round",
+      "mark",
+      "text-color",
+      "closeable",
+      "click",
+      "close"
+    ]
+  },
+  "vcm-tree-select": {
+    "description": "API",
+    "attributes": [
+      "items",
+      "height",
+      "main-active-index",
+      "active-id",
+      "max",
+      "click-nav",
+      "click-item"
+    ]
+  },
+  "vcm-uploader": {
+    "description": "API",
+    "attributes": [
+      "name",
+      "accept",
+      "preview-size",
+      "preview-image",
+      "preview-full-image",
+      "multiple",
+      "disabled",
+      "deletable",
+      "capture",
+      "after-read",
+      "before-read",
+      "before-delete",
+      "max-size",
+      "max-count",
+      "result-type",
+      "upload-text",
+      "image-fit",
+      "oversize",
+      "click-preview",
+      "close-preview",
+      "delete"
+    ]
+  }
+}
