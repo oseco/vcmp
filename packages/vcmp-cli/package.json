@@ -90,7 +90,7 @@
     "lodash": "^4.17.15",
     "ora": "^4.0.3",
     "portfinder": "^1.0.25",
-    "postcss": "^7.0.26",
+    "postcss": "^8.2.10",
     "postcss-loader": "^3.0.0",
     "release-it": "^12.4.3",
     "sass": "^1.24.4",
